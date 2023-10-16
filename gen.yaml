@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 21c25ca8a734b4fb704e98d966524ee0
+  docVersion: 1.0.0
+  speakeasyVersion: 1.99.2
+  generationVersion: 2.155.1
 generation:
   comments:
     disableComments: false
@@ -7,8 +12,13 @@ generation:
   sdkClassName: Swagger-Petstore
   singleTagPerOp: false
   tagNamespacingDisabled: false
+features:
+  go:
+    core: 2.91.5
+    globalServerURLs: 2.82.0
 go:
-  version: 0.0.1
+  version: 0.1.0
   clientServerStatusCodesAsErrors: true
+  flattenGlobalSecurity: true
   maxMethodParams: 0
   packageName: github.com/speakeasy-sdks/test-issue-sample-sdk
